@@ -14,25 +14,27 @@ int main() {
 
     //Movimento do Bispo utilizando a estrutura de repetição While.
     printf("Movimento do Bispo\n");
-    int b = 1;
-    while (b <= Bispo) {
+    int i = 1;
+    while (i <= Bispo) {
         printf("Cima, Direita\n");
-        b++;
+        i++;
     }
+        printf("\n");
 
     //Movimento da Torre utilizando a estrutura de repetição For.
     printf("Movimento da Torre\n");
-        for (int t = 1; t <= Torre; t++) {
+        for (int j = 1; j <= Torre; j++) {
             printf("Direita\n");
         }
+        printf("\n");
 
     //Movimento da Rainha utilizando a estrutura de repetição Do While.
     printf("Movimento da Rainha\n");
-    int r = 1;
+    int k = 1;
     do {
         printf("Esquerda\n");
-        r++;
-    } while (r <= Rainha);
+        k++;
+    } while (k <= Rainha);
 
     return 0;
 }
